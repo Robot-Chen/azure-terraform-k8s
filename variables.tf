@@ -5,9 +5,6 @@ variable "agent_count" {
     default = 3
 }
 
-variable "ssh_public_key" {
-    default = "~/.ssh/id_rsa.pub"
-}
 
 variable "dns_prefix" {
     default = "k8stest"
@@ -24,7 +21,7 @@ variable resource_group_name {
 variable location {
     default = "Central US"
 }
-
+#if possible ,change this line
 variable log_analytics_workspace_name {
     default = "LogAnalyticsWorkspace4testName"
 }
