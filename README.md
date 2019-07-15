@@ -7,7 +7,9 @@ create a k8s cluster in azure using terraform
 - All services / Storage accounts / 
 
 ```
-az storage container create -n tfstate --account-name <YourAzureStorageAccountName> --account-key <YourAzureStorageAccountKey>
+az storage container create -n tfstate \
+--account-name <YourAzureStorageAccountName> \
+--account-key <YourAzureStorageAccountKey>
 ```
 
 ### step 2 : terraform init
